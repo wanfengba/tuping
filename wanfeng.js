@@ -16,13 +16,13 @@
 
       //询问框
       layer.confirm('<font face="楷体"><p>我喜欢的他啊.他威武霸气才高八斗文武双全温柔</p><p>浪漫机智勇猛成熟稳重气吞山河空前绝后雷霆万钓 </p><p>千年难遇运.筹帷幄出神入化闭月羞花</p><p>沉鱼落雁倾国倾城惊为天人脚踏七彩祥云。</p></font>', {
-        btn: ['<font face="楷体">对不起</font>','<font face="楷体">晚风好温柔</font>'] //按钮
+        btn: ['<font face="楷体">对不起</font>','<font face="楷体">枯木逢春</font>'] //按钮
       }, function(){
         layer.msg('<font face="楷体"><p>伴随一生美佟年，</p><p>年少有为韩商言。</p></font>', {icon: 1});
       }, function(){
-        layer.msg('<font face="楷体">我说晚风温柔，你说真的好温柔……</font>', {
+        layer.msg('<font face="楷体">在腐朽的木头,也会有逢春的那一天吧.</font>', {
           time: 20000, //20s后自动关闭
-          btn: ['<font face="楷体">温柔</font>', '<font face="楷体">真的好温柔</font>']
+          btn: ['<font face="楷体">但愿吧</font>', '<font face="楷体">会的</font>']
         });
       });  
 
