@@ -1,9 +1,6 @@
 /**
  * Simple Load More
  *
- * Version: 1.0.2
- * Author: Zeshan Ahmed
- * Website: https://zeshanahmed.com/
  * Github: https://github.com/zeshanshani/simple-load-more/
  */
 (function($) {
@@ -20,6 +17,12 @@
 
     // Run through all the elements.
     $loadMore.each(function(i, el) {
+
+      // Variables.
+      var $thisLoadMore = $(this);
+      var $items        = $thisLoadMore.find(settings.item);
+      var btnHTML       = settings.btnHTML ? settings.btnHTML : '<a href="#" class="load-more__btn">View More <i class="fas fa-angle-down"></i></a>';
+      var $btnHTML      = $(btnHTML);
 
       // Add classes
       $thisLoadMore.addClass('load-more');
