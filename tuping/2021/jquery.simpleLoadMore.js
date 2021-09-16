@@ -24,7 +24,7 @@
       // Variables.
       var $thisLoadMore = $(this);
       var $items        = $thisLoadMore.find(settings.item);
-      var btnHTML       = settings.btnHTML ? settings.btnHTML : '<a href="#" class="load-more__btn">View More <i class="fas fa-angle-down"></i></a>';
+      var btnHTML       = settings.btnHTML ? settings.btnHTML : '<a href="#" class="load-more__btn">加载更多<i class="fas fa-angle-down"></i></a>';
       var $btnHTML      = $(btnHTML);
 
       // Add classes
