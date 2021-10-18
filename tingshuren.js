@@ -15,7 +15,7 @@
           event.returnValue = false;
 
       //询问框
-      layer.confirm('<font face="楷体"><p>我喜欢的他啊威武霸气才高八斗文武双全</p>温柔浪漫机智勇猛成熟稳重气吞山河空前绝后雷霆万钓</p><p>千年难遇 运筹帷幄 出神入化 闭月羞花</p><p>沉鱼落雁 倾国倾城 惊为天人 脚踏七彩祥云。</p></font>', {
+      layer.confirm('<font face="楷体"><p>我喜欢的他 威武霸气 才高八斗 文武双全</p>温柔浪漫 机智勇猛 成熟稳重 气吞山河 空前绝后 </p><p>雷霆万钓 千年难遇 运筹帷幄 出神入化 </p><p>闭月羞花 沉鱼落雁 倾国倾城 惊为天人 脚踏七彩祥云。</p></font>', {
         btn: ['<font face="楷体">对不起</font>','<font face="楷体">听书人</font>'] //按钮
       }, function(){
         layer.msg('<font face="楷体"><p>伴随一生美佟年，</p><p>年少有为韩商言。</p></font>', {icon: 1});
